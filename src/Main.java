@@ -24,6 +24,8 @@ public class Main {
         double valueConsumption = beer + softDrink + barbecue;
         System.out.println();
 
+        scanner.close();
+        
         System.out.println("RELATÓRIO:");
         System.out.printf("Consumo = R$ %.2f\n", Bill.feeding(valueConsumption));
 
@@ -35,7 +37,6 @@ public class Main {
         System.out.printf("Ingresso = R$ %.2f\n", Bill.ticket(gender));
         System.out.println();
         System.out.printf("Valor a pagar = R$ %.2f\n", Bill.total(valueConsumption));
-
 
 
     }
