@@ -14,13 +14,13 @@ public class Main {
         Bill.gender = gender;
         System.out.print("Quantidade de cerveja: " );
         int beer = scanner.nextInt();
-        beer = beer * Bill.beer;
+        beer = beer * Bill.BEER;
         System.out.print("Quantidade de refrigerantes: " );
         int softDrink = scanner.nextInt();
-        softDrink = softDrink * Bill.softDrink;
+        softDrink = softDrink * Bill.SOFT_DRINK;
         System.out.print("Quantidade de espetinhos: " );
         int barbecue = scanner.nextInt();
-        barbecue = barbecue * Bill.barbecue;
+        barbecue = barbecue * Bill.BARBERCUE;
         double valueConsumption = beer + softDrink + barbecue;
         System.out.println();
 

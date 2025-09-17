@@ -3,9 +3,9 @@ import java.util.Objects;
 public class Bill {
 
     public static char gender;
-    public static final int beer = 5;
-    public static final int barbecue= 7;
-    public static final int softDrink = 3;
+    public static final int BEER = 5;
+    public static final int BARBERCUE= 7;
+    public static final int SOFT_DRINK = 3;
 
 
     public static double cover(double valueConsumption){
